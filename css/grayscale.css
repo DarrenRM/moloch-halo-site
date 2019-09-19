@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #db8230;
+  border: 1px solid #db8230;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -47,7 +47,7 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(208, 66, 31);
   }
   #mainNav .nav-link {
     transition: none;
@@ -72,17 +72,19 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #db8230;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #db8230;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #db8230;
   }
 }
+
+
 
 .masthead {
   position: relative;
@@ -90,7 +92,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.16) 0%, rgba(22, 22, 22, 0.3) 95%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -100,9 +102,10 @@
 .masthead h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
+  font-weight: 700;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(219, 172, 40, 0.9), rgba(255, 0, 0, 0.4));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -125,14 +128,18 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.3rem;
   }
   .masthead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
+}
+
+.hero {
+    margin-bottom: 80px;
 }
 
 .btn {
@@ -146,7 +153,7 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #db8230;
 }
 
 .btn-primary:hover {
@@ -182,7 +189,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #db8230;
   }
 }
 
@@ -196,7 +203,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #db8230;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #db8230;
 }
 
 .contact-section .card h4 {
@@ -239,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #db8230;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,7 +279,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #db8230;
 }
 
 a:focus, a:hover {
@@ -285,11 +292,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #db8230 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #db8230 !important;
 }
 
 footer {
