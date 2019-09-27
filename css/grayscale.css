@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #db8230;
+  border: 1px solid #db8230;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -47,12 +47,12 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(208, 66, 31);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -72,45 +72,51 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #db8230;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #db8230;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #db8230;
   }
 }
+
+
 
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 60rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.16) 0%, rgba(22, 22, 22, 0.3) 95%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
+  padding: 0;
 }
 
 .masthead h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
+  font-weight: 700;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(219, 172, 40, 0.9), rgba(255, 0, 0, 0.4));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
+  max-width: 40rem;
+  font-size: 1.2rem;
 }
+
 
 @media (min-width: 768px) {
   .masthead h1 {
@@ -125,16 +131,40 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.3rem;
   }
   .masthead h2 {
-    max-width: 30rem;
+    max-width: 60rem;
     font-size: 1.25rem;
   }
 }
 
+.hero {
+    margin-bottom: 70px;
+}
+
+.hero h1 {
+  padding-bottom: 20px;
+}
+
+.hero p {
+  line-height: 25px;
+}
+
+.hero p.small {
+  font-size: 82%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .hero {
+    margin-bottom: 190px;
+  }
+}
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -146,7 +176,7 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #db8230;
 }
 
 .btn-primary:hover {
@@ -182,7 +212,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #db8230;
   }
 }
 
@@ -196,7 +226,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #db8230;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,7 +258,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #db8230;
 }
 
 .contact-section .card h4 {
@@ -239,7 +269,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #db8230;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,7 +302,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #db8230;
 }
 
 a:focus, a:hover {
@@ -285,13 +315,20 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #db8230 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #db8230 !important;
 }
 
 footer {
   padding: 5rem 0;
+}
+
+.footer-note {
+  text-align: center;
+  color: black;
+  padding: 50px;
+  padding-bottom: 0;
 }
